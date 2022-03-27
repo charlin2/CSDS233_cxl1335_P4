@@ -20,8 +20,7 @@ public class Tokenizer {
     public Tokenizer(String fileName) throws FileNotFoundException {
         wordList = new ArrayList<String>();
         // read from file
-        File file = new File(fileName);
-        Scanner read = new Scanner(file);
+        Scanner read = new Scanner(new File(fileName));
         try {
             String currentWord;
             // iterate through individual words
@@ -70,5 +69,16 @@ public class Tokenizer {
             }
         }
         return normalizedWord.toString();
+    }
+
+    public static void main(String[] args) {
+        try {
+            Tokenizer testMacbeth = new Tokenizer("C:\\Users\\clin1\\Desktop\\CSDS_233_Data_Structures\\P4\\Macbeth.txt");
+            ArrayList<String> words = testMacbeth.wordList();
+            System.out.println(words.get(7));
+            System.out.println(words.get(words.size()-1));
+        } catch (FileNotFoundException e) {
+            System.out.println("file not found");
+        }
     }
 }
