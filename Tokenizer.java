@@ -73,7 +73,7 @@ public class Tokenizer {
 
     public static void main(String[] args) {
         try {
-            Tokenizer testMacbeth = new Tokenizer("C:\\Users\\clin1\\Desktop\\CSDS_233_Data_Structures\\P4\\Macbeth.txt");
+            Tokenizer testMacbeth = new Tokenizer("C:\\Users\\clin1\\Documents\\CSDS_233_Data_Structures\\P4\\Macbeth.txt");
             ArrayList<String> words = testMacbeth.wordList();
             System.out.println(words.get(7));
             System.out.println(words.get(words.size()-1));
