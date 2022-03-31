@@ -2,7 +2,7 @@
  * Represents an entry in a hash table
  * @author <i>Charlie Lin</i>
  */
-public class HashEntry {
+public class HashEntry implements Comparable<HashEntry> {
     /** Key to access hash entry */
     private String key;
 
@@ -56,5 +56,14 @@ public class HashEntry {
 
     public void setNext(HashEntry nextEntry) {
         this.nextEntry = nextEntry;
+    }
+
+    @Override
+    public int compareTo(HashEntry compareEntry) {
+        if (value < compareEntry.value) 
+            return 1;
+        else if (value > compareEntry.value)
+            return -1;
+        return key.compareTo(compareEntry.key);
     }
 }

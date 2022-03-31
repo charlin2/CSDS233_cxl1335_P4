@@ -1,3 +1,23 @@
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair Word Pair 
+
 The Project Gutenberg eBook of Macbeth, by William Shakespeare
 
 This eBook is for the use of anyone anywhere in the United States and
@@ -411,6 +431,8 @@ So all hail, Macbeth and Banquo!
 FIRST WITCH.
 Banquo and Macbeth, all hail!
 
+antique
+
 MACBETH.
 Stay, you imperfect speakers, tell me more.
 By Sinel’s death I know I am Thane of Glamis;
@@ -441,6 +463,8 @@ That takes the reason prisoner?
 MACBETH.
 Your children shall be kings.
 
+ZEBRA
+
 BANQUO.
 You shall be king.
 
@@ -465,6 +489,8 @@ Strange images of death. As thick as tale
 Came post with post; and everyone did bear
 Thy praises in his kingdom’s great defence,
 And pour’d them down before him.
+
+antique
 
 ANGUS.
 We are sent
@@ -593,6 +619,8 @@ He was a gentleman on whom I built
 An absolute trust.
 
  Enter Macbeth, Banquo, Ross and Angus.
+
+antique
 
 O worthiest cousin!
 The sin of my ingratitude even now

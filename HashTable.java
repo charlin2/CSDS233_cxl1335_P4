@@ -12,16 +12,18 @@ public class HashTable {
     /** the capacity of the array */
     private int maxWords;
 
+    /** load factor */
+    private final double loadFactor = 1;
     /**
      * Constructs a new Hash Table
      */
     public HashTable() {
-        items = new HashEntry[100];
-        maxWords = 100;
+        items = new HashEntry[1024];
+        maxWords = 1024;
     }
 
     /**
-     * Constructs a new Hash Table of specified size
+     * Constructs a new Hash Table with specified size
      * @param size the size of the Hash Table
      */
     public HashTable(int size) {
@@ -58,7 +60,7 @@ public class HashTable {
         }
         numWords++;
         // calculate load factor, rehash if necessary
-        if ((double)numWords/maxWords > 0.9) {
+        if ((double)numWords/maxWords > loadFactor) {
             HashEntry[] oldTable = items;
             // double size of new table
             maxWords *= 2;
@@ -97,7 +99,7 @@ public class HashTable {
         }
         numWords++;
         // calculate load factor, rehash if necessary
-        if ((double)numWords/maxWords > 0.9) {
+        if ((double)numWords/maxWords > loadFactor) {
             HashEntry[] oldTable = items;
             maxWords *= 2;
             numWords = 0;
@@ -122,15 +124,17 @@ public class HashTable {
         int hashValue = hash(key);
         HashEntry trav = items[hashValue];
         // try to find key
-        while (trav != null && !trav.getKey().equals(key)) {
+        while (trav != null) {
+            // key found, update value
+            if (trav.getKey().equals(key)) {
+                trav.setValue(value);
+                break;
+            }
             trav = trav.nextEntry();
         }
-        // if key does not exist, put
+        // key not found, put new entry
         if (trav == null)
             put(key, value);
-        // update existing key
-        else
-            trav.setValue(value);
     }
 
     /**
