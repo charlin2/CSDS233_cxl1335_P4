@@ -22,11 +22,9 @@ public class Tokenizer {
         // read from file
         Scanner read = new Scanner(new File(fileName));
         try {
-            String currentWord;
             // iterate through individual words
             while (read.hasNext()) {
-                currentWord = read.next();
-                wordList.add(normalize(currentWord));
+                wordList.add(normalize(read.next()));
             }
         } finally {
             read.close();

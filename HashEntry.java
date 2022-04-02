@@ -58,6 +58,11 @@ public class HashEntry implements Comparable<HashEntry> {
         this.nextEntry = nextEntry;
     }
 
+    /**
+     * Returns 1, -1, or 0 if this HashEntry is lesser in value, greater in value, or the same in value
+     * If HashEntries have the same value, ties are broken alphabetically
+     * NOTE: For purposes of ranking, typical comparison conventions are reversed (i.e. return 1 if this is less than the compared entry)
+     */
     @Override
     public int compareTo(HashEntry compareEntry) {
         if (value < compareEntry.value) 
