@@ -30,6 +30,7 @@ public class Tokenizer {
             read.close();
         }
     }
+    
     /**
      * Creates a <i>Tokenizer</i> from a String array
      * @param wordList
@@ -38,7 +39,8 @@ public class Tokenizer {
         // convert string array into arraylist
         this.wordList = new ArrayList<String>(wordList.length);
         for (int i = 0; i < wordList.length; i++) {
-            this.wordList.add(normalize(wordList[i]));
+            if (wordList[i] != null)
+                this.wordList.add(normalize(wordList[i]));
         }
     }
 
